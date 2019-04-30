@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Sushi Yami</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mask.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#phone").mask("(00) 00000-0000")
+        })
+    </script>
+
+</head>
+<body>
+    <div class="header">
+        <nav class="menu">
+            <img src="img/logo-2.png" alt="logo" class="logo">
+            <ul class="menu-item">
+                <a href="index.html">Home</a>
+                <a href="pratos.html">Pratos</a>
+                <a href="contato.html">Contato</a>
+                <a href="sobre.html">Sobre</a>
+            </ul>
+        </nav>
+    </div>
+
+    <p class="text-style-1">Contato</p>
+
+    <div class="form-style-5">
+        <form>
+        <fieldset>
+            <legend>Formulário</legend>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" placeholder="Your Name *">
+            <label for="phone">Telefone:</label>
+            <input type="text" name="phone" placeholder="Your Number *" id="phone">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Your Email *">
+            <label for="message">Mensagem:</label>
+            <textarea name="text-area" placeholder="About yourself"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <img src="img/logo-2.png" alt="logo" class="logo-footer">
+        <p>Contato: 4002-8922</p>
+        <p>Desde 1998</p>
+        <p>Desenvolvedor - Elienai Ribeiro</p>
+    </footer>
+</body>
+</html>
